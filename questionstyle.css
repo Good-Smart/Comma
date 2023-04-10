@@ -1,0 +1,121 @@
+* {
+    font-family: 'Song Myung', serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    display: none;
+}
+
+html, body {
+    min-height: 844px;
+    max-width: 390px;
+}
+
+body {
+    background-image: url('./img/background.jpg');
+    background-size: 390px 844px;
+    background-repeat: no-repeat;
+    margin: 0 35px;
+}
+
+button {
+    max-width: 320px;
+    vertical-align: middle;
+    background-color: #FFC480;
+}
+
+.splash_title {
+    position: absolute;
+    width: 190px;
+    height: 91px;
+    left: 53px;
+    top: 109px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #000000;
+}
+
+.q_title {
+    position: absolute;
+    width: 164px;
+    height: 26px;
+    left: 67px;
+    top: 81px;
+
+    font-family: 'JejuMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+#meditate {
+    position: absolute;
+    width: 367px;
+    height: 525px;
+    left: 14px;
+    top: 281px;
+}
+.start_btn {
+    border: none;
+    position: absolute;
+    width: 302px;
+    height: 59px;
+    left: 42px;
+    top: 750px;
+
+    background: #FFC480;
+    border-radius: 30px;
+}
+
+.next_btn {
+    border: none;
+    position: absolute;
+    width: 302px;
+    height: 59px;
+    left: 42px;
+    top: 750px;
+
+    background: #FFC480;
+    border-radius: 30px;
+}
+
+#title {
+    position: relative;
+    top: 185px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    /* or 136% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #000000;
+}
+
+#textarea_answer {
+    position: absolute;
+    width: 317px;
+    height: 211px;
+    left: 35px;
+    top: 328px;
+
+    background: #FFDAAF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
