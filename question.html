@@ -16,13 +16,16 @@
     </article>
     <div id="sun"></div>
     <article class="question">
-        <!-- <div class="progress mt-5">
-            <div class="progress-bar" role="progressbar" style="width: calc(100/12*3%)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div> -->
         <h2 id="title" class="text-center mt-5">"오늘 기분은 어떤가요?"</h2>
 
         <div class="mb-3">
             <textarea class="form-control" id="textarea_answer" name="answer" rows="3"></textarea>
+        </div>
+        <div id="feelingbox">
+            <button class="feeling" id="bad" value="별로에요."></button>
+            <button class="feeling" id="good" value="그냥 그래요."></button>
+            <button class="feeling" id="happy" value="좋아요!"></button>
+            <p id="clicked_feeling">오늘의 기분은</p>
         </div>
         <button class="next_btn" onclick="next()">다음으로</button>
 
@@ -41,18 +44,24 @@
             5: {"title": '"내일은 무엇을 <br/>하고 싶나요?"'}
         }
 
+        $('.feeling').click(function(){
+            $('#clicked_feeling').html("오늘의 기분은"+ $(this).val())
+        })
+
         function next() {
             if (num == 6) {
                 $(".question").hide();
                 $("#textarea_answer").hide();
                 $(".result").show();
 
-                // 답변 모아서 보여주기
+                // 오늘의 쉼표 분석
+                location.href = 'result.html';
                 
             } else {
                 $("#title").html(q[num]["title"]);
                 $("#sun").css({'left' : 'calc(269px+'+num+'px)', 'top' : 'calc(43px + 167/5*'+num+'px)'})
                 var inputValue = $("#textarea_answer").val();
+
                 console.log(inputValue)
                 $("#textarea_answer").val('');
             num++;

@@ -23,12 +23,6 @@ body {
     margin: 0 35px;
 }
 
-button {
-    max-width: 320px;
-    vertical-align: middle;
-    background-color: #FFC480;
-}
-
 .splash_title {
     position: absolute;
     width: 190px;
@@ -49,13 +43,13 @@ button {
     left: 67px;
     top: 81px;
 
-    font-family: 'JejuMyeongjo';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
 
     color: #000000;
+    text-align: center;
 }
 
 #meditate {
@@ -128,4 +122,59 @@ button {
     top: 43px;
 
     background-image: url(img/sun.png);
+}
+
+#feelingbox {
+    position: absolute;
+    width: 215px;
+    height: 69px;
+    left: 86px;
+    top: 562px;
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+#bad {
+    position: absolute;
+    left: 13.49%;
+    right: 66.98%;
+    top: 17.39%;
+    bottom: 21.74%;
+    background-image: url(img/bad.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#good {
+    position: absolute;
+    left: 40.47%;
+    right: 40%;
+    top: 17.39%;
+    bottom: 21.74%;
+    background-image: url(img/good.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#happy {
+    position: absolute;
+    left: 67.44%;
+    right: 12.56%;
+    top: 17.39%;
+    bottom: 20.29%;
+    background-image: url(img/happy.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#clicked_feeling {
+    position: absolute;
+    left: 104px;
+    top: 644px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
