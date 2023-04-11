@@ -119,3 +119,13 @@ button {
     border-radius: 30px;
     border: none;
 }
+
+#sun {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 269px;
+    top: 43px;
+
+    background-image: url(img/sun.png);
+}
