@@ -2,6 +2,7 @@ body{
     margin:35px;
     background: #FBEDDD;
 }
+
 .boxone {
     box-sizing: border-box;
 
@@ -48,12 +49,13 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 h1{
+    width: 159px;
+    height: 78px;
+    left: 116px;
+    top: 114px;
     position: absolute;
-width: 159px;
-height: 78px;
-left: 116px;
-top: 114px;
     font-family: 'HYGraphic';
     font-style: normal;
     font-size: 28px;
@@ -62,6 +64,7 @@ top: 114px;
     text-align: center;
     color:black;
 }
+
 div{
     text-align: center;
     padding: 50px;

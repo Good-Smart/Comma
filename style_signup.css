@@ -39,10 +39,10 @@
 
 body{
     margin: 35px;
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(180deg, #FFC480 0%, #FCFCFC 89.06%, rgba(233, 254, 236, 0) 99.96%, rgba(255, 255, 255, 0.0885417) 99.97%);
     position: relative;
-width: 390px;
-height: 844px;
-background: linear-gradient(180deg, #FFC480 0%, #FCFCFC 89.06%, rgba(233, 254, 236, 0) 99.96%, rgba(255, 255, 255, 0.0885417) 99.97%);
 }
 
 img{ position: absolute; width: 400px; height: 525px;top: 281px;left: -20px;}

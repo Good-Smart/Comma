@@ -51,19 +51,18 @@ body{
 }
 
 .boxthree {
-    box-sizing: border-box;
-
-position: absolute;
-width: 320px;
-height: 57px;
-top: 537px;
-
-background: #FFFFFF;
-border: 3px solid #EE8E48;
-border-radius: 10px;
-text-align: center;
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    top: 537px;
+    
+    background: #FFFFFF;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    text-align: center;
     font-family: 'HYGraphic';
     font-style: normal;
+    box-sizing: border-box;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -73,18 +72,17 @@ text-align: center;
 }
 
 .boxfour{
-    box-sizing: border-box;
-
-position: absolute;
-width: 320px;
-height: 57px;
-top: 610px;
-
-background: #FFFFFF;
-border: 3px solid #EE8E48;
-border-radius: 10px;
-text-align: center;
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    top: 610px;
+    
+    background: #FFFFFF;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    text-align: center;
     font-family: 'HYGraphic';
+    box-sizing: border-box;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -93,13 +91,14 @@ text-align: center;
     align-items: center;
     justify-content: center;
 }
+
 h1{
-    position: absolute;
-width: 159px;
-height: 78px;
-left: 116px;
-top: 114px;
+    width: 159px;
+    height: 78px;
+    left: 116px;
+    top: 114px;
     font-family: 'HYGraphic';
+    position: absolute;
     font-style: normal;
     font-size: 28px;
     line-height: 38px;
