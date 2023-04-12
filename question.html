@@ -54,7 +54,6 @@
             $(this).css("background-color", "#FFC480");
             $('#clicked_feeling').html(now_clicked);
             clicked_value = now_clicked;
-            
         })
 
         function next() {
@@ -70,6 +69,9 @@
                 $("#title").html(q[num]["title"]);
                 $("#sun").css({'left' : 'calc(269px+'+num+'px)', 'top' : 'calc(43px + 167/5*'+num+'px)'})
                 var inputValue = $("#textarea_answer").val();
+                $("#"+clicked_value).css({"background-color": "rgba(255, 255, 255, 0)"});
+                $('#clicked_feeling').html("");
+                clicked_value = "";
 
                 console.log(inputValue)
                 $("#textarea_answer").val('');
