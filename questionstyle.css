@@ -7,9 +7,6 @@ article {
     flex-direction: column;
 }
 
-.result {
-    display: none;
-}
 
 html, body {
     min-height: 844px;
@@ -86,15 +83,12 @@ body {
 #title {
     position: relative;
     top: 185px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 38px;
-    /* or 136% */
 
     display: flex;
-    align-items: center;
     text-align: center;
     vertical-align: middle;
 
@@ -175,4 +169,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.question {
+    align-items: center;
 }
