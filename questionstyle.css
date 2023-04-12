@@ -170,11 +170,9 @@ body {
 
 #clicked_feeling {
     position: absolute;
-    left: 104px;
-    top: 644px;
+    left: 86px;
+    top: 75px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 16px;
-    text-align: center;
     color: #FFFFFF;
 }

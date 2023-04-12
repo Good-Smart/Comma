@@ -22,10 +22,10 @@
             <textarea class="form-control" id="textarea_answer" name="answer" rows="3"></textarea>
         </div>
         <div id="feelingbox">
-            <button class="feeling" id="bad" value="별로에요."></button>
-            <button class="feeling" id="good" value="그냥 그래요."></button>
-            <button class="feeling" id="happy" value="좋아요!"></button>
-            <p id="clicked_feeling">오늘의 기분은</p>
+            <button class="feeling" id="bad" value="bad"></button>
+            <button class="feeling" id="good" value="good"></button>
+            <button class="feeling" id="happy" value="happy"></button>
+            <p id="clicked_feeling"></p>
         </div>
         <button class="next_btn" onclick="next()">다음으로</button>
 
@@ -43,9 +43,18 @@
             4: {"title": '"오늘 후회되는 일이<br/>있나요?"'}, 
             5: {"title": '"내일은 무엇을 <br/>하고 싶나요?"'}
         }
+        var clicked_value = "";
 
         $('.feeling').click(function(){
-            $('#clicked_feeling').html("오늘의 기분은"+ $(this).val())
+            now_clicked = $(this).val();
+            if (clicked_value != "") {
+                txt = "#" + clicked_value;
+                $(txt).css({"background-color": "rgba(255, 255, 255, 0)"});
+            }
+            $(this).css("background-color", "#FFC480");
+            $('#clicked_feeling').html(now_clicked);
+            clicked_value = now_clicked;
+            
         })
 
         function next() {
