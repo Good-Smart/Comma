@@ -1,6 +1,7 @@
 article {
     display: flex;
     flex-direction: column;
+    background-color: #FBEDDD;
 }
 
 .question {
@@ -20,4 +21,39 @@ article {
 
 .result {
     display: none;
+}
+
+.chat_title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.white_box {
+    width: 320px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.keyword {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.save_btn {
+    background-color: #E48F2A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34px;
+    width: 320px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
 }
