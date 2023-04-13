@@ -1,0 +1,108 @@
+body{
+    margin:35px;
+    background: #FBEDDD;
+}
+.boxone {
+    box-sizing: border-box;
+
+    width: 320px;
+    height: 91px;
+    top: 263px;
+    
+    background: #EE8E48;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    position: absolute;
+
+    text-align: center;
+    font-family: 'HYGraphic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFFFFF;
+}
+
+.boxtwo {
+    box-sizing: border-box;
+
+    height: 91px;
+    top: 384px;
+    width: 320px;
+    
+    background: #EE8E48;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    position: absolute;
+
+    text-align: center;
+    font-family: 'HYGraphic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFFFFF;
+}
+
+.boxthree {
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    top: 537px;
+    
+    background: #FFFFFF;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'HYGraphic';
+    font-style: normal;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxfour{
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    top: 610px;
+    
+    background: #FFFFFF;
+    border: 3px solid #EE8E48;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'HYGraphic';
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    width: 159px;
+    height: 78px;
+    left: 116px;
+    top: 114px;
+    font-family: 'HYGraphic';
+    position: absolute;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    color:black;
+}
