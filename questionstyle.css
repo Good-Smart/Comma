@@ -1,0 +1,176 @@
+* {
+    font-family: 'Song Myung', serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+html, body {
+    min-height: 844px;
+    max-width: 390px;
+}
+
+body {
+    background-image: url('./img/background.jpg');
+    background-size: 390px 844px;
+    background-repeat: no-repeat;
+    margin: 0 35px;
+}
+
+.splash_title {
+    position: absolute;
+    width: 190px;
+    height: 91px;
+    left: 53px;
+    top: 109px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #000000;
+}
+
+.q_title {
+    position: absolute;
+    width: 164px;
+    height: 26px;
+    left: 67px;
+    top: 81px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+    text-align: center;
+}
+
+#meditate {
+    position: absolute;
+    width: 367px;
+    height: 525px;
+    left: 14px;
+    top: 281px;
+}
+.start_btn {
+    border: none;
+    position: absolute;
+    width: 302px;
+    height: 59px;
+    left: 42px;
+    top: 750px;
+
+    background: #FFC480;
+    border-radius: 30px;
+}
+
+.next_btn {
+    border: none;
+    position: absolute;
+    width: 302px;
+    height: 59px;
+    left: 42px;
+    top: 750px;
+
+    background: #FFC480;
+    border-radius: 30px;
+}
+
+#title {
+    position: relative;
+    top: 185px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #000000;
+}
+
+#textarea_answer {
+    position: absolute;
+    width: 317px;
+    height: 211px;
+    left: 35px;
+    top: 328px;
+
+    background: #FFDAAF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+
+#sun {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 269px;
+    top: 43px;
+
+    background-image: url(img/sun.png);
+}
+
+#feelingbox {
+    position: absolute;
+    width: 215px;
+    height: 69px;
+    left: 86px;
+    top: 562px;
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+#bad {
+    position: absolute;
+    left: 13.49%;
+    right: 66.98%;
+    top: 17.39%;
+    bottom: 21.74%;
+    background-image: url(img/bad.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#good {
+    position: absolute;
+    left: 40.47%;
+    right: 40%;
+    top: 17.39%;
+    bottom: 21.74%;
+    background-image: url(img/good.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#happy {
+    position: absolute;
+    left: 67.44%;
+    right: 12.56%;
+    top: 17.39%;
+    bottom: 20.29%;
+    background-image: url(img/happy.png);
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#clicked_feeling {
+    position: absolute;
+    left: 86px;
+    top: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.question {
+    align-items: center;
+}
