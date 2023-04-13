@@ -33,9 +33,24 @@
             border-radius: 10px;
             vertical-align: middle;
         }
+        .bottom_menu {
+            position: fixed;
+            width: 390px;
+            height: 90.5px;
+            top: 761px;
+            background-color: white
+        }
+        .bottom_menu>div {
+            float: left;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class=".display">
     <h2 style="position: absolute;
     width: 212px;
     height: 40px;
@@ -79,6 +94,24 @@
         <div class="result_box">
             분석 내용
         </div>
+    </div>
+    <div class="bottom_menu">
+        <div>
+            <img style="float: left" src="img/menu_write.png" onclick="location.href='save_result.html'">
+        </div>
+        <div>
+            <img style="float: left" src="img/menu_book.png">
+        </div>
+        <div>
+            <img style="float: left" src="img/menu_home.png">
+        </div>
+        <div>
+            <img style="float: left" src="img/menu_mypage.png" onclick="location.href='MyPage.html'">
+        </div>
+        <div>
+            <img style="float: left" src="img/menu_setting.png">
+        </div>
+    </div>
     </div>
 </body>
 </html>
