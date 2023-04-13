@@ -52,7 +52,7 @@ h1{
     left: 105px;
     top: 114px;
     position: absolute;
-    font-family: 'HYGraphic';
+
     font-style: normal;
     font-size: 28px;
     line-height: 38px;
@@ -60,4 +60,8 @@ h1{
     text-align: center;
     color:black;
     justify-content: center;
+}
+
+* {
+    font-family: 'Song Myung', serif;
 }

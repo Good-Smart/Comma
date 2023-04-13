@@ -15,7 +15,6 @@ body{
     position: absolute;
 
     text-align: center;
-    font-family: 'HYGraphic';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -39,7 +38,6 @@ body{
     position: absolute;
 
     text-align: center;
-    font-family: 'HYGraphic';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -60,7 +58,6 @@ body{
     border: 3px solid #EE8E48;
     border-radius: 10px;
     text-align: center;
-    font-family: 'HYGraphic';
     font-style: normal;
     box-sizing: border-box;
     font-weight: 400;
@@ -81,7 +78,6 @@ body{
     border: 3px solid #EE8E48;
     border-radius: 10px;
     text-align: center;
-    font-family: 'HYGraphic';
     box-sizing: border-box;
     font-style: normal;
     font-weight: 400;
@@ -97,7 +93,6 @@ h1{
     height: 78px;
     left: 116px;
     top: 114px;
-    font-family: 'HYGraphic';
     position: absolute;
     font-style: normal;
     font-size: 28px;
@@ -105,4 +100,23 @@ h1{
     font-weight: 400;
     text-align: center;
     color:black;
+}
+
+.bottom_menu {
+    position: fixed;
+    width: 390px;
+    height: 90px;
+    bottom: 0px;
+    background-color: white;
+}
+.bottom_menu>div {
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+* {
+    font-family: 'Song Myung', serif;
 }
