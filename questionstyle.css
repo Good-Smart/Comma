@@ -17,7 +17,7 @@ body {
     background-image: url('./img/background.jpg');
     background-size: 390px 844px;
     background-repeat: no-repeat;
-    margin: 0 35px;
+    /* margin: 0 35px; */
 }
 
 .splash_title {
@@ -173,4 +173,11 @@ body {
 
 .question {
     align-items: center;
+}
+
+.display {
+    box-sizing: border-box;
+    width: 390px;
+    height: 844px;
+    background-color: #FBEDDD;
 }
