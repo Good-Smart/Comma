@@ -104,17 +104,24 @@ h1{
 
 .bottom_menu {
     position: fixed;
-    width: 390px;
-    height: 90px;
+    width: 100%;
+    height: 70px;
+    /* margin: 0 auto; */
     bottom: 0px;
-    background-color: white;
+    background-color: white
 }
+
 .bottom_menu>div {
-    float: left;
+    float:left;
     width: 20%;
     height: 100%;
     text-align: center;
+    margin: 0 auto;
     padding-top: 20px;
+}
+
+.bottom_menu>div>img {
+    float: center;
 }
 
 * {

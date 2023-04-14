@@ -47,25 +47,31 @@
         }
 
         .bottom_menu {
-            position: absolute;
+            position: fixed;
             width: 390px;
-            height: 90.5px;
-            top: 761px;
+            height: 70px;
+            /* margin: 0 auto; */
+            bottom: 0px;
             background-color: white
         }
 
         .bottom_menu>div {
-            float: left;
+            float:left;
             width: 20%;
             height: 100%;
             text-align: center;
+            margin: 0 auto;
             padding-top: 20px;
+        }
+
+        .bottom_menu>div>img {
+            float: center;
         }
     </style>
 </head>
 
 <body>
-    <div class="display"></div>
+    <div class="display">
     <h1
         style="position: absolute; width: 146px; height: 40px; left: 122px; top: 50px; font-weight: 400; font-size: 28px; line-height: 38px; text-align: center; color: #000000;">
         마이페이지</h1>
@@ -148,21 +154,22 @@
     </div>
     <div class="bottom_menu">
         <div>
-            <img style="float: left" src="img/menu_write.png" onclick="location.href='save_result.html'">
+            <img src="img/menu_write.png" onclick="location.href='save_result.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_book.png" onclick="location.href='today_recommend.html'">
+            <img src="img/menu_book.png" onclick="location.href='today_recommend.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_home.png"onclick="location.href='chatgpt.html'">
+            <img src="img/menu_home.png"onclick="location.href='chatgpt.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_mypage.png" onclick="location.href='MyPage.html'">
+            <img src="img/menu_mypage.png" onclick="location.href='MyPage.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_setting.png">
+            <img src="img/menu_setting.png">
         </div>
     </div>
+    </div>      
 </body>
 
 </html>

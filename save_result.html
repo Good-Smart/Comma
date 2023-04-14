@@ -9,21 +9,19 @@
     <title>'오늘의 쉼표'</title>
     <style>
         body {
+            /* width: 100%; */
             background: #FBEDDD;
         }
         .box {
-            position: absolute;
             width: 300px;
             height: fit-content;
-            left: 39px;
-            top: 173px;
-            margin-bottom: 200px;
-
+            /* left: 39px; */
+            /* top: 173px; */
+            
             background: #FFDAAF;
             box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
             padding: 10px 20px;
-
             text-align: center;
         }
         .result_box {
@@ -34,21 +32,9 @@
             background: rgba(255, 255, 255, 0.5);
             border-radius: 10px;
             vertical-align: middle;
-        }
-        .bottom_menu {
-            position: fixed;
-            width: 390px;
-            height: 70px;
-            bottom: 0px;
-            background-color: white
-        }
-        .bottom_menu>div {
-            float: left;
-            width: 20%;
-            height: 100%;
             text-align: center;
-            padding-top: 20px;
         }
+
         .answer_box {
             position: relative;
             width: 280px;
@@ -69,7 +55,7 @@
 </head>
 <body>
     <div class="display">
-    <h2 style="position: absolute;
+    <h2 style="
     width: 212px;
     height: 40px;
     left: 89px;
@@ -78,9 +64,10 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 38px;
+    margin: 0 auto;
     text-align: center;">
     오늘의 쉼표 기록</h2>
-    <p style="position: absolute;
+    <p style="
     width: 126.4px;
     height: 19.75px;
     left: 45px;
@@ -128,24 +115,23 @@
         </div>
     </div>
     </div>
-
+    </div>
     <div class="bottom_menu">
         <div>
-            <img style="float: left" src="img/menu_write.png" onclick="location.href='save_result.html'">
+            <img style="float: center" src="img/menu_write.png" onclick="location.href='save_result.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_book.png" onclick="location.href='today_recommend.html'">
+            <img style="float: center" src="img/menu_book.png" onclick="location.href='today_recommend.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_home.png"onclick="location.href='chatgpt.html'">
+            <img style="float: center" src="img/menu_home.png"onclick="location.href='chatgpt.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_mypage.png" onclick="location.href='MyPage.html'">
+            <img style="float: center" src="img/menu_mypage.png" onclick="location.href='MyPage.html'">
         </div>
         <div>
-            <img style="float: left" src="img/menu_setting.png">
+            <img style="float: center" src="img/menu_setting.png">
         </div>
-    </div>
     </div>
 </body>
 </html>

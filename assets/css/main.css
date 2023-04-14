@@ -1591,16 +1591,23 @@ input, select, textarea {
 
 		}
 		.bottom_menu {
-            position: fixed;
-            width: 390px;
-            height: 90px;
-            bottom: 0px;
-            background-color: white
-        }
-        .bottom_menu>div {
-            float: left;
-            width: 20%;
-            height: 100%;
-            text-align: center;
-            padding-top: 20px;
-        }
+			position: fixed;
+			width: 100%;
+			height: 70px;
+			/* margin: 0 auto; */
+			bottom: 0px;
+			background-color: white
+		}
+		
+		.bottom_menu>div {
+			float:left;
+			width: 20%;
+			height: 100%;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 20px;
+		}
+		
+		.bottom_menu>div>img {
+			float: center;
+		}
